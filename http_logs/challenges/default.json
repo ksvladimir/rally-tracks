@@ -25,7 +25,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 120,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
@@ -106,7 +106,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 120,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
@@ -154,7 +154,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 120,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
@@ -202,7 +202,7 @@
         },
         {
           "operation": "index-append-with-ingest-{{ingest_pipeline | default('baseline')}}-pipeline",
-          "warmup-time-period": 240,
+          "warmup-time-period": 120,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
