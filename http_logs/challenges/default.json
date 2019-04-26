@@ -25,7 +25,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 0,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
@@ -106,7 +106,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 0,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
@@ -154,7 +154,7 @@
         },
         {
           "operation": "index-append",
-          "warmup-time-period": 240,
+          "warmup-time-period": 0,
           "clients": {{bulk_indexing_clients | default(8)}}
         },
         {
